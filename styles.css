@@ -7,8 +7,8 @@
 #about{
     
     
-    border-top-style: solid;
-    background-color: lightsteelblue;
+    
+    background-color: #bc986a;
     width: 100%;
 
     padding-left: auto;
@@ -16,8 +16,9 @@
 }
 #mainBody{
     width: 100%;
+    max-width: 90%;
     margin: 0 auto;
-    background-color: grey;
+    background-color: #659dbd;
 }
 .displayTable{
     height: auto;
@@ -46,14 +47,14 @@
 
 
 .style1{
-    background-color: lightgrey;
+    background-color: #daad86;
     width: 100%;
     padding-left: auto;
     padding-right: auto;
 
 }
 .style2{
-    background-color: lightsteelblue;
+    background-color: #bc986a;
     width: 100%;
     padding-left: auto;
     padding-right: auto;
@@ -76,3 +77,29 @@ iframe{
     height: 35em;
     width: 95%;
 }
+.topnav {
+    overflow: hidden;
+    background-color: #659dbd;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  
+  .topnav a {
+    float: center;
+
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
