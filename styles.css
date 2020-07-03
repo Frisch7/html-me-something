@@ -18,7 +18,7 @@
     width: 100%;
     max-width: 90%;
     margin: 0 auto;
-    background-color: #659dbd;
+    background-color: #8a9a5b;
 }
 .displayTable{
     height: auto;
@@ -79,7 +79,7 @@ iframe{
 }
 .topnav {
     overflow: hidden;
-    background-color: #659dbd;
+    background-color: #8a9a5b;
     margin-top: 2em;
     margin-bottom: 2em;
   }
