@@ -18,10 +18,12 @@ p{
     padding: 0;
     font-family: 'Roboto', sans-serif;
     overflow: hidden;
+    
 }
 #header{
     margin-left: 20%;
     margin-right: 20%;
+    min-width: 1102px;
     
     }
 #header h1{
@@ -37,6 +39,7 @@ p{
     width: 100%;
     text-align: center;
     display: inline-block;
+    
 }
 #laplataImage h1{
     margin-top: 250px;
@@ -47,11 +50,13 @@ p{
 #about{
     display: inline-block;
     margin: 0px;
-    height: 500px;
+    min-height: 600px;
+    height: auto;
     width: 100%;
     background-color: #f2f2f2;
     color: black;
     overflow: hidden;
+    
 }
 h3{
     text-align: center;
@@ -65,7 +70,8 @@ h1{
 #aboutTable{
     margin-right: 20%;
     margin-left: 20%;
-    height: 500px;
+    height: 550px;
+    
 }
 #aboutColumn{
     width: 40%;
@@ -73,10 +79,15 @@ h1{
 #mapColumn{
     width: 100%;
 }
+#mapColumn h3{
+    margin-left: 8em;
+    width: 100%;
+}
 iframe{
     height: 90%;
     width: 60%;
     float: right;
+    border-radius: 1%;
 }
 .style1{
     margin-top: 1em;
@@ -84,7 +95,7 @@ iframe{
     margin-right: 20%;
     margin-left: 20%;
     height: auto;
-    min-width: 1000px;
+    
 }
 .style2{
     margin-top: 1em;
@@ -92,7 +103,7 @@ iframe{
     margin-right: 20%;
     margin-left: 20%;
     height: auto;
-    min-width: 1000px;
+    
 }
 .style2 img{
     width: 85%;
@@ -128,6 +139,7 @@ iframe{
 .displayTable{
     height: auto;
     width : 100%;
+    
 }
 .articleStory{
     font-family: 'Roboto', sans-serif;
@@ -136,6 +148,7 @@ iframe{
     display: inline-block;
     width: 100%;
     font-size: large;
+    
 }
 .topnav {
     overflow: hidden;
@@ -164,4 +177,13 @@ iframe{
   .topnav a.active {
     background-color: #4CAF50;
     color: white;
+  }
+  #hikestats{
+      margin-left: auto;
+      margin-right: auto;
+      width: auto;
+  }
+  .stats{
+      padding: 2em;
+      width: auto;
   }
