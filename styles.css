@@ -1,21 +1,114 @@
-#mainHeader{
- padding-top: 1%;
- text-align: center;
- font-family: 'Roboto', sans-serif;
- font-weight: 500;
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+#hike{
+    margin: 0px;
+}
+#header-container{
+    background-color: black;
+    color: white;
+    height: auto;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+#header{
+    margin-left: 20%;
+    margin-right: 20%;
+    float: center;
+    vertical-align: center;
+}
+#header h1{
+    float: left;
+}
+#laplataImage{
+    margin: 0px;
+    background-image: url("images/DriveIn.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
 }
 #about{
-    background-color: #bc986a;
+    display: inline-block;
+    margin: 0px;
+    height: 500px;
     width: 100%;
-
-    padding-left: auto;
-    padding-right: auto;
+    background-color: #f2f2f2;
+    color: black;
+    overflow: hidden;
 }
-#mainBody{
+h3{
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    vertical-align: center;
+    
+}
+#aboutTable{
+    margin-right: 20%;
+    margin-left: 20%;
+    height: 500px;
+}
+#aboutColumn{
+    width: 40%;
+}
+#mapColumn{
     width: 100%;
-    max-width: 90%;
-    margin: 0 auto;
-    background-color: #8a9a5b;
+}
+iframe{
+    height: 90%;
+    width: 60%;
+    float: right;
+}
+.style1{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 20%;
+    margin-left: 20%;
+    height: auto;
+    min-width: 1000px;
+}
+.style2{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 20%;
+    margin-left: 20%;
+    height: auto;
+    min-width: 1000px;
+}
+.style2 img{
+    width: 85%;
+    min-width: 50%;
+    max-width: 95%;
+    border-radius: 1%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin: 1em;
+    display: inline-block;
+    float: left;
+    
+}
+.style1 img{
+    width: 85%;
+    min-width: 50%;
+    max-width: 95%;
+    border-radius: 1%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin: 1em;
+    display: inline-block;
+    float: right;
+}
+.imageColumn{
+    width: 50%;
+    
+    text-align: center;
+}
+.textColumn{
+    width: 50%;
 }
 .displayTable{
     height: auto;
@@ -28,57 +121,14 @@
     display: inline-block;
     width: 100%;
     font-size: large;
-    text-align: center;
-}
-.imageColumn{
-    width: 50%;
-    margin: 10%;
-    text-align: center;
-}
-.textColumn{
-    width: 50%;
-    margin: 10%;
-    font-size: large;
-    text-align: center;
-}
-
-
-.style1{
-    background-color: #daad86;
-    width: 100%;
-    padding-left: auto;
-    padding-right: auto;
-
-}
-.style2{
-    background-color: #bc986a;
-    width: 100%;
-    padding-left: auto;
-    padding-right: auto;
-}
-
-img{
-    width: 95%;
-    max-width: 95%;
-    border-radius: 1%;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    display: inline-block;
-}
-li{
-list-style: none;
-display: inline-block;
-margin-right: 1em;
-}
-iframe{
-    height: 35em;
-    width: 95%;
 }
 .topnav {
     overflow: hidden;
-    background-color: #8a9a5b;
+    background-color: black;
     margin-top: 2em;
     margin-bottom: 2em;
+    float: left;
+    width: auto;
   }
   
   .topnav a {
@@ -88,7 +138,7 @@ iframe{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: auto;
   }
   
   .topnav a:hover {
